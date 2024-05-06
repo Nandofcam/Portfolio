@@ -246,15 +246,15 @@ p
 }
 .projects .box
 {
-    position: relative;
     width: 100%;
     display: flex;
-    flex-flow: row  wrap;
+    flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
 }
 .projects   .box    .card
 {
+    position: relative;
     cursor: pointer;
     margin-bottom: 50px;
     background-color: rgb(230, 230, 230);

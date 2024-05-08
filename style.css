@@ -302,15 +302,21 @@ p {
     .about  .box    .year_company   h6    {
         padding-bottom: 5px;
     }
-    .skills   ul
+    .projects   .box    .card
     {
-        grid-template-columns: repeat(1, 1fr);
+        width: 250px;
+        height: 400px;
     }
-    .skills .box
+    .projects   .box    .card   img {
+        width: 100%;
+    }
+    .projects   .box    h1
     {
-        grid-template-columns: repeat(1, 1fr);
+        font-size: 20px;
     }
-    .projects   .box    p    {
+    .projects   .box    p
+    {
+        font-size: 10px;
         padding-top: 0;
     }
 }

@@ -274,6 +274,10 @@ p {
     .container    {
         grid-template-columns: 1fr;
     }
+    .skills   ul
+    {
+        grid-template-columns: repeat(2, 1fr);
+    }
     .projects   .box    {
         flex-flow: column;
         justify-content: center;
@@ -297,6 +301,14 @@ p {
     }
     .about  .box    .year_company   h6    {
         padding-bottom: 5px;
+    }
+    .skills   ul
+    {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .skills .box
+    {
+        grid-template-columns: repeat(1, 1fr);
     }
     .projects   .box    p    {
         padding-top: 0;
